@@ -1,1 +1,60 @@
-/* You can add global styles to this file, and also import other style files */
+// Google fonts imports
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap");
+
+// Global styles
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--gray9);
+}
+
+body,
+input,
+button,
+h1,
+h2,
+h3,
+h4 {
+  font: 16px Roboto, sans-serif;
+  color: #fff;
+}
+
+button {
+  cursor: pointer;
+}
+
+:root {
+  --blue: #0289ff;
+
+  --green1: #e8fff7;
+  --green2: #b9ffe8;
+  --green3: #9affde;
+  --green4: #00e59b;
+  --green5: #00c787;
+  --green6: #009f6c;
+  --green7: #006646;
+  --green8: #004c34;
+  --green9: #002e1f;
+
+  --gray1: #fff;
+  --gray2: #f8f8f8;
+  --gray3: #eaeaea;
+  --gray4: #b1b1b9;
+  --gray5: #838592;
+  --gray6: #5d5d6c;
+  --gray7: #22272b;
+  --gray8: #161a1f;
+  --gray9: #06070d;
+}
